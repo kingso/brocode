@@ -26,3 +26,4 @@ func (s *Str) Split(split string) []string {
 
 	return strings.Split(string(*s), split)
 }
+// testing fix
