@@ -2,6 +2,7 @@ package main
 
 import (
 	. "github.com/kingso/brocode/internal"
+	. "github.com/kingso/brocode/pkg"
 )
 
 func main() {
@@ -10,5 +11,12 @@ func main() {
 	Pf("Msg: '%s', Upper: %s \n", msg, msg.Upper())
 	Pf("Msg: '%s', Lower: %s \n", msg, msg.Lower())
 	Pf("Msg: '%s', Split: %s \n", msg, msg.Split(" "))
+
+	ans, err := DivideBy(1, 10)
+	if err != nil {
+		Pl(err)
+	} else {
+		Pl(ans)
+	}
 
 }

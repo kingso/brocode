@@ -1,4 +1,4 @@
-package internal
+package pkg
 
 import (
 	"fmt"
@@ -7,3 +7,4 @@ import (
 // commenting
 var Pl = fmt.Println
 var Pf = fmt.Printf
+var Ef = fmt.Errorf
