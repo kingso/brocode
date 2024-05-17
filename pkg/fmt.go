@@ -1,9 +1,10 @@
 package pkg
 
 import (
-	"fmt"
+	f "fmt"
 )
 
-var Pl = fmt.Println
-var Pf = fmt.Printf
-var Ef = fmt.Errorf
+var Pl = f.Println
+var Pf = f.Printf
+var Ef = f.Errorf
+var Sf = f.Sprintf

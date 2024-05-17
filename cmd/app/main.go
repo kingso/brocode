@@ -18,5 +18,9 @@ func main() {
 	} else {
 		Pl(ans)
 	}
+	var hand Hand = Rock
+	Pl(hand)
+
+	Pl(Lengther(msg))
 
 }

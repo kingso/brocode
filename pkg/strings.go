@@ -12,6 +12,11 @@ func (s *Str) Len() int {
 	return len(*s)
 }
 
+// Lengther returns the length of the any string derived var as an int.
+func Lengther[T ~string](a T) int {
+	return len(a)
+}
+
 // Upper returns the Str string as an uppercase string.
 func (s *Str) Upper() Str {
 	return Str(strings.ToUpper(string(*s)))
